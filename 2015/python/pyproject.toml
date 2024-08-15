@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "aoc-with-python"
+version = "0.1.0"
+description = "My AOC journey of 2015 with python"
+authors = ["AlphaCeph-C3 <101421534+AlphaCeph-C3@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
