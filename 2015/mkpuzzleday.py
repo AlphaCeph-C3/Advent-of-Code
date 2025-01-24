@@ -40,7 +40,7 @@ def create_puzzle_directory(input_name):
         shutil.copy(os.path.join("template", src), os.path.join(input_name, dest))
 
     create_test_file(input_name, year, day)
-    print(f"New folder and files created for day: {input_name}")
+    print(f"New puzzle directory and files created for day: {input_name}")
 
 
 # Main Function
